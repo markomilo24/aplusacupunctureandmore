@@ -1,0 +1,133 @@
+html, body{
+	background-color:white;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.menu {
+  background: darkolivegreen;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  text-align: center;
+  list-style: none;
+}
+
+.menu a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: steelblue;    
+}
+
+.menu .icon-close{
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+}
+
+.header {
+    background-color: steelblue;
+    float: top;
+    display: block;
+    width: 100%;
+	color:white;
+	height: 100px;
+	border-radius: 5px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.header .headertext a {
+    text-decoration: none;
+    color: white;
+}
+
+.headertext {
+    padding-left: 150px;
+}
+
+
+span {
+	color: darkolivegreen;
+	font-size: 2em;
+	font-style: italic;
+	font-family: 'Trebuchet MS';
+}
+
+#A {
+	position: relative;
+	bottom: 20px;
+	font-size: 1em;
+}
+
+/*.sidebarleft {
+	background-color: steelblue;
+	width: 100px;
+	height: 100%;
+    position: relative;
+    left: 0px;
+	float: left;
+	padding: 10px;
+}
+
+.sidebarright {
+	background-color: steelblue;
+	width: 100px;
+	height: 100%;
+    position: relative;
+    right: 0px;
+	float: right;
+	padding: 10px;
+}*/
+
+.page-info-title {
+    width: 50%;
+    float: left;
+    display: block;
+    font-size: 50px;
+    color: darkolivegreen;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.paragraphs {
+	/*margin-left: 100px;*/
+	/*margin-right: 100px;*/
+	/*padding-left: 50px;*/
+	/*padding-right: 50px;*/
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: white;
+    width: 50%;
+    float: right;
+    display: block;
+    }
+
+h3 {
+    color: darkolivegreen;
+}
+
+p {
+	text-indent: 50px;
+	color: black;
+}
+
+.footer {
+	background-color: steelblue;
+	height: 100px;
+	width: 100%;
+	float: bottom;
+	display: block;
+    clear: both; 
+    /*position: absolute;
+    bottom: 0;
+    /*margin: 0 auto;*/
+}
